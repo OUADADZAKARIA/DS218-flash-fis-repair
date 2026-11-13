@@ -1,0 +1,12 @@
+# Ne jamais publier : identité d'usine, journaux, images système
+*.bin
+*.log
+*.pat
+*.img
+*.dump
+flash*
+*.putty
+# Brouillons
+_*
+.DS_Store
+Thumbs.db
