@@ -2,8 +2,8 @@
 
 ## Shell du mode junior (BusyBox v1.16.1)
 
-- **Présents** : `cat`, `cut`, `dd`, `expr`, `printf` (intégré), `seq`, `grep`/`egrep`/`fgrep`, `head`, `tail`, `wc`, `xargs`, `vi`, `wget`, `httpd`, `telnetd`, `tar`, `gunzip`, `xz`, `mount`, `ifconfig`, `ping`.
-- **Absents** : `od`, `hexdump`, `xxd`, `tr`, `cmp`, `md5sum`, `sed`, `awk`, `strings`, `uuencode`, `sort`, `uniq`.
+- **Présents** (constatés) : `cat`, `dd`, `printf` (intégré), `ls`, `tail`, `grep`, `ifconfig`, `httpd`, `vi`, `mount`.
+- **Absents** (constatés) : `od`, `hexdump`, `md5sum`, `tr`, `cmp`, `sed`, `awk`, `strings`. Teste un outil (`which`) avant de compter dessus.
 - Solution : sauvegarder dans `/tmp` (en RAM) et le récupérer par `httpd -p 8081 -h /tmp`, puis analyser sur le PC.
 - `/tmp` est en RAM : tout est perdu au redémarrage. Les dumps doivent être récupérés avant.
 

@@ -2,7 +2,7 @@
 
 ## Intervention matérielle
 
-> **À savoir avant de lire :** les premières photos de la carte examinées pendant le dépannage ne montraient finalement pas un DS218. Les références de carte et de puces relevées dessus sont donc à revérifier (voir [matériel et outils](01-materiel-et-outils.md)). Le repère **U3** est celui utilisé par l'auteur sur sa propre carte.
+> **À savoir avant de lire :** le repère **U3** est celui utilisé par l'auteur sur sa propre carte (`HDR23L1` v1.1). Vérifie le repérage sur la tienne (voir [matériel et outils](01-materiel-et-outils.md)).
 
 > Les champs marqués `[À COMPLÉTER]` sont des détails non fournis. Ne publie pas le document sans les remplir ou les supprimer.
 

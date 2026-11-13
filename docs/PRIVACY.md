@@ -11,6 +11,7 @@ Un NAS laisse des traces d'identité partout. Avant de publier un fichier, une c
 | Adresse e-mail, identifiants QuickConnect | DSM, assistant |
 | Chemins de fichiers de ta machine | Captures de l'explorateur, des invites de commande (ils contiennent ton nom d'utilisateur) |
 | Marque et modèle de ton routeur, ville, région | Captures réseau, fuseau horaire |
+| **Ton identité git** | Le nom et l'e-mail de `git config` se retrouvent dans chaque commit public |
 
 ## À ne **jamais** publier
 
@@ -19,6 +20,17 @@ Un NAS laisse des traces d'identité partout. Avant de publier un fichier, une c
 - Les fichiers `.pat` (propriété de Synology).
 
 Le `.gitignore` de ce dépôt bloque ces extensions.
+
+## Identité git
+
+Avant le premier commit, configure une identité qui ne révèle ni ton vrai nom ni ton e-mail, par exemple l'adresse « noreply » fournie par GitHub (GitHub > Settings > Emails > « Keep my email addresses private ») :
+
+```sh
+git config user.name  "ton-pseudo"
+git config user.email "<id>+<pseudo>@users.noreply.github.com"
+```
+
+Vérifie avec `git log --format='%an <%ae>'` avant de pousser. Un commit déjà poussé garde son auteur : le changer oblige à réécrire l'historique.
 
 ## Photos et captures
 

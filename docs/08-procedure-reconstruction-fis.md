@@ -87,7 +87,7 @@ ls -l /tmp/fis_new.bin
 
 ## Étape 5 : Vérifier le bloc avant de l'écrire
 
-Récupère `fis_new.bin` sur le PC par `httpd` (voir 7.1) et compare-le au bloc attendu. Générateur Python équivalent :
+Récupère `fis_new.bin` sur le PC par `httpd` (voir l'étape 1) et compare-le au bloc attendu. Générateur Python équivalent :
 
 ```python
 import struct
